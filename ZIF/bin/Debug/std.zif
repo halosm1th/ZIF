@@ -1,0 +1,7 @@
+?~/stds/setup.forth
+?~/stds/stdmath.forth
+?~/stds/stack.forth
+?~/stds/string.forth
+?~/stds/memory.forth
+?~/stds/zifStd.zif
+?~/stds/control.forth

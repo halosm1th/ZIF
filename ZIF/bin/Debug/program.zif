@@ -1,0 +1,7 @@
+?std.zif
+:sqr dup * ;
+:add1 = One 1  $One + ;
+:generate64 = A 8 $A sqr ; 
+:generateA generate64 add1 ;
+:printA generateA . ;
+:main printA ;

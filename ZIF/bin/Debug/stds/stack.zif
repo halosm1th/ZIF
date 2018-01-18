@@ -1,0 +1,3 @@
+:dup #pop:r0 #push:r0 #push:r0 ;
+:! #pop:r0 #pop:r1 #push:r0 #push:r1 ;
+:!2 #pop:r0 #pop:r1 #pop:r2 #push:r2 #push:r1 #push:r0 ;

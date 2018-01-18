@@ -1,0 +1,7 @@
+Z:\ZIF\ZIF\bin\Debug\ZIF.exe.config
+Z:\ZIF\ZIF\bin\Debug\ZIF.exe
+Z:\ZIF\ZIF\bin\Debug\ZIF.pdb
+Z:\ZIF\ZIF\obj\Debug\ZIF.csprojResolveAssemblyReference.cache
+Z:\ZIF\ZIF\obj\Debug\ZIF.exe
+Z:\ZIF\ZIF\obj\Debug\ZIF.pdb
+Z:\ZIF\ZIF\obj\Debug\ZIF.csproj.CoreCompileInputs.cache

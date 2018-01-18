@@ -1,0 +1,9 @@
+:& #pop:r0 #callr:r0 ;
+:+ #pop:r1 #pop:r2 #add:r3,r2,r1 #push:r3 ;
+:- #pop:r1 #pop:r2 #sub:r3,r2,r1 #push:r3 ;
+:/ #pop:r1 #pop:r2 #div:r3,r2,r1 #push:r3 ;
+:* #pop:r1 #pop:r2 #mul:r3,r2,r1 #push:r3 ;
+:% #pop:r1 #pop:r2 #mod:r3,r2,r1 #push:r3 ;
+:^ #pop:r1 #pop:r2 #xor:r3,r2,r1 #push:r3 ;
+:atoi #pop:r1 dup #pop:r0 #loadi:r2,13 #int:r2,r1,r0 ;
+:itoa #pop:r1 dup #pop:r0 #loadi:r2,14 #int:r2,r0,r1 ;

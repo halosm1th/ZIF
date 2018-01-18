@@ -1,0 +1,5 @@
+:. #pop:r1 #loadi:r0,65500 #savrr:r1,r0 #loadi:r1,7 #int:r1,r0,r0 ;
+:, #loadi:r1,65500 #loadi:r0,2 #int:r0,r1,r1 #redrr:r0,r1 #push:r0 ;
+:printStr #loadi:r0,1 #pop:r2 #pop:r1 #int:r0,r1,r2 ;:getStr #loadi:r0,2 #pop:r1 dup #pop:r2 #int:r0,r1,r2 ;
+:.$ #pop:r0 #loadi:r1,0 #cmp:r0,r1 #jne:loop$ #ret:0 #label:loop$ #push:r0 65257 writeMem . 65257 readMem #pop:r0 #loadi:r1,1 #sub:r0,r0,r1 #push:r0 .$ ;
+:CR 13 . ;

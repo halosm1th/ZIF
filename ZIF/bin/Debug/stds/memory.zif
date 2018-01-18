@@ -1,0 +1,4 @@
+:.m #pop:r0 #loadi:r1,1 #int:r1,r0,r0 ;
+:,m #pop:r0 #pop:r1 #loadi:r2,2 #int:r2,r1,r0 ;
+:readMem #pop:r0 #redrr:r1,r0 #push:r1 ;
+:writeMem #pop:r1 #pop:r0 #savrr:r0,r1 ;

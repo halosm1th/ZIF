@@ -1,0 +1,19 @@
+(Takes 4 values. The first two are the addresses and the second two are the values)
+(so it goes. @F1 @F2 V1 V2 ife)
+(R3 = Variable 2, R4 = Variable 1)
+(R0 = Function 1, R1 = Function 2)
+(Function 1 is if they are equal. Function 2 is if they arent)
+(A1D, A2D, F1D, F2D -> N1N, N2N, N3N, N4N)
+:ife 
+ (Setup the 4 values in registers)
+ #pop:r3 #pop:r4 #pop:r1 #pop r0
+ (compare and jump to the correct location)
+ #cmp:r3,r4
+ #jne:ifeNotEqual
+ #push:r3
+ &
+ ;
+ #label:ifeNotEqual
+ #push:r4
+ &
+ ;
